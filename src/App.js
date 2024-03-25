@@ -3,11 +3,12 @@ import {Switch, Route} from 'wouter';
 import Home from './page/Home.js';
 import About from './page/About.js';
 import Prices from './page/Prices.js';
+import {Header} from './page/inc/Header.js';
 //export default class App extends React.Component {
 
 
-
 import './css/App.css';
+import './css/bootstrap.min.css';
 
 
 	//render() {
@@ -19,7 +20,7 @@ import './css/App.css';
 		
 		  return (<>
 		  
-		  
+		 <Header />  
 		  
 		  <Switch>
 		 
