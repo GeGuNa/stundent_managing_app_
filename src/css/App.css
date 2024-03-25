@@ -1,12 +1,15 @@
 body {
 	font-family: Roboto, Helvetica, Arial;
+	font-family: 'Manrope' !important;
 	font-size:16px;
 	margin:0;
 	padding:0;
+	color: #222 !important;
 }
 
 a { 
-text-decoration: none;
+	text-decoration: none !important;
+	color: #222 !important;
 }
 
 
@@ -22,4 +25,56 @@ text-decoration: none;
     align-items: center;
     padding: 10px;
     display: flex;
+}
+
+
+
+.hdr_centerstyle {
+    background-color: #fff;
+    border-radius: 4rem;
+    gap: 20px;
+    display: flex;
+    padding: 14px;
+}
+
+
+
+@font-face {
+	font-family: 'ManropeRegular';
+	src: url('../fonts/static/Manrope-Regular.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal
+}
+
+
+
+
+@font-face {
+	font-family: 'Manrope';
+	src: url('../fonts/Manrope-VariableFont_wght.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal
+}
+
+
+
+.jcenter {
+    justify-content: center;
+}
+
+
+.fright1  {
+    justify-content: end;
+    display:flex;
+    gap:15px;
+}
+
+
+.button {
+	outline: none;
+    border: 0;
+    background: white;
+    color: #000;
+    padding: 14px;
+    border-radius: 20px;
 }
