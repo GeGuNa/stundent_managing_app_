@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'wouter'
 
 
 export function Sign_in() {
@@ -27,6 +27,11 @@ export function Sign_in() {
 		
 		</div>
 		
+		<div className="textCntq1z">
+		
+			Don't have account? <Link className="clq1z_a" href="/sign_up">Register Now</Link> 
+
+		</div>
 		
 		
 		
@@ -71,6 +76,15 @@ export function Sign_up(){
 	
 		
 			<button className="button">Registration</button>
+		
+		
+		
+			<div className="textCntq1z">
+		
+			Have account? <Link className="clq1z_a" href="/login">Sign in</Link> 
+
+		</div>
+		
 		
 		
 		
