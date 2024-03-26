@@ -78,3 +78,56 @@ a {
     padding: 8px 16px;
     border-radius: 20px;
 }
+
+
+
+.wrapper_cntr {
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    box-shadow: 20px 20px 80px rgb(206, 206, 206);
+}
+
+
+.h_h1z {
+	text-align: center;
+    font-family: cursive;
+    font-weight: bold !important;
+    color: #400485 !important;
+    font-style: italic;
+    font-size: 24px;
+}
+
+
+.centerization {
+text-align:center;
+display:block;
+}
+
+
+.textCntq1z {
+    color: #6c757d !important;
+    text-align: center !important;
+    padding-top: .5rem !important;
+}
+
+
+
+.pform12 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 15px;
+}
+
+
+.input {
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #400485;
+    color: #400485;
+}
