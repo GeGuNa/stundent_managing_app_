@@ -4,6 +4,7 @@ import Home from './page/Home.js';
 import About from './page/About.js';
 import Prices from './page/Prices.js';
 import {Header} from './page/inc/Header.js';
+import { Sign_in, Sign_up } from './page/Sign.js';
 //export default class App extends React.Component {
 
 
@@ -23,24 +24,12 @@ import './css/bootstrap.min.css';
 		 <Header />  
 		  
 		  <Switch>
-		 
-		 
-		   <Route path="/" component={Home} />
-		   
-		   <Route path="/about" component={About} />
-		   
-		    <Route path="/pricing" component={Prices} />
-		   
-		   
-		  
-		   
- <Route>
- Something went off 
- </Route>
-
-		 
-		 
-		 
+				<Route path="/" component={Home} />
+				<Route path="/about" component={About} />
+				<Route path="/pricing" component={Prices} />
+				<Route path="/login" component={Sign_in} />
+				<Route path="/sign_up" component={Sign_up} />
+				<Route>Something went off </Route>
 		  </Switch>
 		  
 		  
