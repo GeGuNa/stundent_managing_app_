@@ -29,6 +29,9 @@ import './css/bootstrap.min.css';
 	
 	export default function App() {
 		
+	//const [location, navigate] = useLocation();
+	
+		
 	//const if_authorized = localStorage.getItem("usr_id");
 
 	//localStorage.setItem("usr_id", "Jura");

@@ -1,11 +1,23 @@
 import React from 'react'
-import {Link} from 'wouter';
+import {Link,useLocation} from 'wouter';
 
 export default function About(){
 
 
+const [location, navigate] = useLocation();
+
+
+//navigate("/pricing", { replace: true })
+
+
 return (<>
 
+
+	{
+		
+		//navigate("/pricing", { replace: true })
+	
+	}
 
 About <br/>
 
