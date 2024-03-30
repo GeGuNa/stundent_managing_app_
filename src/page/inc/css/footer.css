@@ -1,0 +1,49 @@
+
+.Cfooteqqweqr {
+margin-top:25px;
+}
+
+.Cfooteqqweqr {
+	display:block;
+	background: #d1d1d1;
+}
+
+
+
+.Cfooter1 {
+	display:flex;
+	flex-wrap:nowrap;
+	gap:20px;
+	padding:20px;
+	justify-content:space-evenly;
+}
+
+.Cfooter1 > div {
+	width:20%;
+	overflow:hidden;
+}
+
+
+.clz_122 > div {
+	padding-bottom:4px;
+}
+
+.copyright {
+	text-align: center;
+    background-color: rgb(0 0 0);
+    padding: 10px;
+    color: #fff;
+}
+
+.copyright a {
+	color: #fff !important;
+}
+
+
+.Social-Links {
+	display:flex;
+	justify-content:center;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	gap:20px;
+}
